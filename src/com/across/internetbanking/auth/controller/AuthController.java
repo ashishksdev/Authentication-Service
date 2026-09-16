@@ -45,7 +45,7 @@ public class AuthController {
             execute(authActionRequest);
             
         } catch (IllegalArgumentException invalidInpException) {
-            System.err.println("Invalid request. Please enter LOGIN or OPEN.");
+            System.err.println("Invalid request!");
         } catch (UIDAlreadyExistsException uidaee){
             System.err.println(uidaee.getMessage());
             attemptLeftMessage(failedCount);
@@ -66,7 +66,7 @@ public class AuthController {
 
             case LOGIN -> {
                 User user = LOGIN.loginUser();
-
+                
                 // Give access to dashboard.
                 Dashboard dashboard = new Dashboard(user, ACCOUNT_DATA, CUSTOMER_DATA);
                 dashboard.start();

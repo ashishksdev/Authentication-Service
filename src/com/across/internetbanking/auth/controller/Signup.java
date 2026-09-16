@@ -1,5 +1,7 @@
 package com.across.internetbanking.auth.controller;
 
+import java.util.function.Predicate;
+
 import com.across.internetbanking.account.controller.AccountForm;
 import com.across.internetbanking.account.factory.AccountFactory;
 import com.across.internetbanking.account.model.Account;
@@ -10,7 +12,6 @@ import com.across.internetbanking.account.service.AccountNumber;
 import com.across.internetbanking.auth.exception.UIDAlreadyExistsException;
 import com.across.internetbanking.auth.service.SignupService;
 import com.across.internetbanking.auth.service.security.PasswordHash;
-import com.across.internetbanking.auth.validator.SignupValidation;
 import com.across.internetbanking.customer.controller.CustomerForm;
 import com.across.internetbanking.customer.dto.CustomerPersonalInfoDTO;
 import com.across.internetbanking.customer.factory.CustomerFactory;
@@ -57,8 +58,8 @@ public class Signup {
 
         // Get Unique ID input and validate it in databse.
         String uniqueIDInput = customerForm.uniqueID();
-        SignupValidation signupValidation = new SignupValidation(CUSTOMER_DATA);
-        if(signupValidation.validateUserId(uniqueIDInput)){
+        Predicate<String> uniqueIdAlreadyExist = id -> CUSTOMER_DATA.exists(id);
+        if(uniqueIdAlreadyExist.test(uniqueIDInput)){
             throw new UIDAlreadyExistsException("User already exist.");
         }
 

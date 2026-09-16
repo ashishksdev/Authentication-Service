@@ -10,7 +10,6 @@ public class User {
     private String salt;
     PasswordHash passwordHash;
 
-    
     public User(String userID, String password, String salt, PasswordHash passwordHash){
         this.userID = userID;
         this.password = password;

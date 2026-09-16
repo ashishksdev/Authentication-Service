@@ -3,9 +3,12 @@ package com.across.internetbanking.dashboard.controller;
 import com.across.internetbanking.account.model.Account;
 import com.across.internetbanking.account.repository.AccountRepository;
 import com.across.internetbanking.account.validator.AccountStatusValidator;
+import com.across.internetbanking.core.util.AppConstants;
+import com.across.internetbanking.core.util.Input;
 import com.across.internetbanking.customer.model.Customer;
 import com.across.internetbanking.customer.repository.CustomerRepository;
 import com.across.internetbanking.dashboard.exception.AccountNotActiveException;
+import com.across.internetbanking.dashboard.model.LoginAction;
 import com.across.internetbanking.user.model.User;
 
 public class Dashboard {
@@ -24,21 +27,21 @@ public class Dashboard {
 
     public void start(){
         String accountNumber = user.accountNumber();
-        account = ACCOUNT_DATA.getAccount(accountNumber);
+        account = ACCOUNT_DATA.getAccount(accountNumber); // Fetch account
 
         AccountStatusValidator validator = new AccountStatusValidator(account);
         if(!validator.validateActive()){
             throw new AccountNotActiveException("Account is not active.");
         }
 
-        customer = CUSTOMER_DATA.getCustomer(account.customerID());
-        // Welcome message
-        printWelcomeMessage(customer.name());
+        customer = CUSTOMER_DATA.getCustomer(account.customerID()); // Fetch Customer
+    
+        printWelcomeMessage(customer.name()); // Welcome message
 
     }
 
-    public void printWelcomeMessage(String name){
-        System.out.printf("Hello %s%n!", name);
+    private void printWelcomeMessage(String name){
+        System.out.printf("Hello %s!%n", name);
     }
    
 }
