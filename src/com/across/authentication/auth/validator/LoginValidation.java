@@ -1,7 +1,7 @@
-package com.across.internetbanking.auth.validator;
+package com.across.authentication.auth.validator;
 
-import com.across.internetbanking.auth.dto.LoginDTO;
-import com.across.internetbanking.user.repository.UserRepository;
+import com.across.authentication.auth.dto.LoginDTO;
+import com.across.authentication.user.repository.UserRepository;
 
 public class LoginValidation {
     UserRepository userRepository;

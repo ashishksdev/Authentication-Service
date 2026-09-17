@@ -1,7 +1,7 @@
-package com.across.internetbanking.account.controller;
+package com.across.authentication.account.controller;
 
-import com.across.internetbanking.account.model.AccountType;
-import com.across.internetbanking.core.util.Input;
+import com.across.authentication.account.model.AccountType;
+import com.across.authentication.core.util.Input;
 
 public class AccountForm {
     

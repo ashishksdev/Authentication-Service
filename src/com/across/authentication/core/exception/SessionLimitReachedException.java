@@ -1,4 +1,4 @@
-package com.across.internetbanking.core.exception;
+package com.across.authentication.core.exception;
 
 public class SessionLimitReachedException extends RuntimeException {
     

@@ -1,6 +1,6 @@
-package com.across.internetbanking.customer.repository;
+package com.across.authentication.customer.repository;
 
-import com.across.internetbanking.customer.model.Customer;
+import com.across.authentication.customer.model.Customer;
 
 public interface CustomerRepository {
     void update(Customer customer);

@@ -1,17 +1,17 @@
-package com.across.internetbanking.auth.controller;
+package com.across.authentication.auth.controller;
 
-import com.across.internetbanking.account.repository.AccountRepository;
-import com.across.internetbanking.auth.exception.LoginFailedException;
-import com.across.internetbanking.auth.exception.UIDAlreadyExistsException;
-import com.across.internetbanking.auth.service.AuthAction;
-import com.across.internetbanking.auth.service.security.PasswordHash;
-import com.across.internetbanking.core.exception.SessionLimitReachedException;
-import com.across.internetbanking.core.util.*;
-import com.across.internetbanking.customer.repository.CustomerRepository;
-import com.across.internetbanking.dashboard.controller.Dashboard;
-import com.across.internetbanking.dashboard.exception.AccountNotActiveException;
-import com.across.internetbanking.user.model.User;
-import com.across.internetbanking.user.repository.UserRepository;
+import com.across.authentication.account.repository.AccountRepository;
+import com.across.authentication.auth.exception.LoginFailedException;
+import com.across.authentication.auth.exception.UIDAlreadyExistsException;
+import com.across.authentication.auth.service.AuthAction;
+import com.across.authentication.auth.service.security.PasswordHash;
+import com.across.authentication.core.exception.SessionLimitReachedException;
+import com.across.authentication.core.util.*;
+import com.across.authentication.customer.repository.CustomerRepository;
+import com.across.authentication.dashboard.controller.Dashboard;
+import com.across.authentication.dashboard.exception.AccountNotActiveException;
+import com.across.authentication.user.model.User;
+import com.across.authentication.user.repository.UserRepository;
 
 public class AuthController {
 

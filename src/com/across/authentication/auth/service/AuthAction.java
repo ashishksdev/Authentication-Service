@@ -1,4 +1,4 @@
-package com.across.internetbanking.auth.service;
+package com.across.authentication.auth.service;
 
 public enum AuthAction {
     LOGIN,

@@ -1,4 +1,4 @@
-package com.across.internetbanking.customer.model;
+package com.across.authentication.customer.model;
 
 public enum Gender {
     FEMALE,

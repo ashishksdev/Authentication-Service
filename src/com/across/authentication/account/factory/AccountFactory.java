@@ -1,6 +1,6 @@
-package com.across.internetbanking.account.factory;
+package com.across.authentication.account.factory;
 
-import com.across.internetbanking.account.model.*;
+import com.across.authentication.account.model.*;
 
 public class AccountFactory {
     private final AccountType accountType;

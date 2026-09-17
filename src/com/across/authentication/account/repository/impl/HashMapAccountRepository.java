@@ -1,7 +1,7 @@
-package com.across.internetbanking.account.repository.impl;
+package com.across.authentication.account.repository.impl;
 
-import com.across.internetbanking.account.model.Account;
-import com.across.internetbanking.account.repository.AccountRepository;
+import com.across.authentication.account.model.Account;
+import com.across.authentication.account.repository.AccountRepository;
 import java.util.HashMap;
 import java.util.Map;
 

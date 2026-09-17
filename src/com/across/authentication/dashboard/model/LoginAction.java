@@ -1,4 +1,4 @@
-package com.across.internetbanking.dashboard.model;
+package com.across.authentication.dashboard.model;
 
 public enum LoginAction {
     LOGOUT,

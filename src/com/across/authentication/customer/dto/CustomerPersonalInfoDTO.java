@@ -1,6 +1,6 @@
-package com.across.internetbanking.customer.dto;
+package com.across.authentication.customer.dto;
 
-import com.across.internetbanking.customer.model.Gender;
+import com.across.authentication.customer.model.Gender;
 
 public record CustomerPersonalInfoDTO(
     String uniqueID,

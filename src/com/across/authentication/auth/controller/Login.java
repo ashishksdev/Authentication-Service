@@ -1,11 +1,11 @@
-package com.across.internetbanking.auth.controller;
+package com.across.authentication.auth.controller;
 
-import com.across.internetbanking.auth.dto.LoginDTO;
-import com.across.internetbanking.auth.validator.LoginValidation;
-import com.across.internetbanking.core.exception.SessionLimitReachedException;
-import com.across.internetbanking.core.util.AppConstants;
-import com.across.internetbanking.user.model.User;
-import com.across.internetbanking.user.repository.UserRepository;
+import com.across.authentication.auth.dto.LoginDTO;
+import com.across.authentication.auth.validator.LoginValidation;
+import com.across.authentication.core.exception.SessionLimitReachedException;
+import com.across.authentication.core.util.AppConstants;
+import com.across.authentication.user.model.User;
+import com.across.authentication.user.repository.UserRepository;
 
 public class Login {
     private final UserRepository USER_DATA;

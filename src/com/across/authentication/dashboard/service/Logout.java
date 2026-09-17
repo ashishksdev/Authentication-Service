@@ -1,4 +1,4 @@
-package com.across.internetbanking.dashboard.service;
+package com.across.authentication.dashboard.service;
 
 public class Logout implements LoginService {
     @Override

@@ -1,27 +1,27 @@
-package com.across.internetbanking.auth.controller;
+package com.across.authentication.auth.controller;
 
 import java.util.function.Predicate;
 
-import com.across.internetbanking.account.controller.AccountForm;
-import com.across.internetbanking.account.factory.AccountFactory;
-import com.across.internetbanking.account.model.Account;
-import com.across.internetbanking.account.model.AccountStatus;
-import com.across.internetbanking.account.model.AccountType;
-import com.across.internetbanking.account.repository.AccountRepository;
-import com.across.internetbanking.account.service.AccountNumber;
-import com.across.internetbanking.auth.exception.UIDAlreadyExistsException;
-import com.across.internetbanking.auth.service.SignupService;
-import com.across.internetbanking.auth.service.security.PasswordHash;
-import com.across.internetbanking.customer.controller.CustomerForm;
-import com.across.internetbanking.customer.dto.CustomerPersonalInfoDTO;
-import com.across.internetbanking.customer.factory.CustomerFactory;
-import com.across.internetbanking.customer.model.Customer;
-import com.across.internetbanking.customer.repository.CustomerRepository;
-import com.across.internetbanking.user.factory.UserFactory;
-import com.across.internetbanking.user.model.User;
-import com.across.internetbanking.user.repository.UserRepository;
-import com.across.internetbanking.user.service.UserID;
-import com.across.internetbanking.user.validator.IsCompatiblePassword;
+import com.across.authentication.account.controller.AccountForm;
+import com.across.authentication.account.factory.AccountFactory;
+import com.across.authentication.account.model.Account;
+import com.across.authentication.account.model.AccountStatus;
+import com.across.authentication.account.model.AccountType;
+import com.across.authentication.account.repository.AccountRepository;
+import com.across.authentication.account.service.AccountNumber;
+import com.across.authentication.auth.exception.UIDAlreadyExistsException;
+import com.across.authentication.auth.service.SignupService;
+import com.across.authentication.auth.service.security.PasswordHash;
+import com.across.authentication.customer.controller.CustomerForm;
+import com.across.authentication.customer.dto.CustomerPersonalInfoDTO;
+import com.across.authentication.customer.factory.CustomerFactory;
+import com.across.authentication.customer.model.Customer;
+import com.across.authentication.customer.repository.CustomerRepository;
+import com.across.authentication.user.factory.UserFactory;
+import com.across.authentication.user.model.User;
+import com.across.authentication.user.repository.UserRepository;
+import com.across.authentication.user.service.UserID;
+import com.across.authentication.user.validator.IsCompatiblePassword;
 
 public class Signup {
 

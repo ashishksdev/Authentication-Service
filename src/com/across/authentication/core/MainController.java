@@ -1,16 +1,16 @@
-package com.across.internetbanking.core;
+package com.across.authentication.core;
 
-import com.across.internetbanking.account.repository.AccountRepository;
-import com.across.internetbanking.account.repository.impl.HashMapAccountRepository;
-import com.across.internetbanking.auth.controller.AuthController;
-import com.across.internetbanking.auth.service.security.PasswordHash;
-import com.across.internetbanking.auth.service.security.impl.SimpleHasher;
-import com.across.internetbanking.core.exception.SessionLimitReachedException;
-import com.across.internetbanking.core.util.*;
-import com.across.internetbanking.customer.repository.CustomerRepository;
-import com.across.internetbanking.customer.repository.impl.HashMapCustomerRepository;
-import com.across.internetbanking.user.repository.UserRepository;
-import com.across.internetbanking.user.repository.impl.HashMapUserRepository;
+import com.across.authentication.account.repository.AccountRepository;
+import com.across.authentication.account.repository.impl.HashMapAccountRepository;
+import com.across.authentication.auth.controller.AuthController;
+import com.across.authentication.auth.service.security.PasswordHash;
+import com.across.authentication.auth.service.security.impl.SimpleHasher;
+import com.across.authentication.core.exception.SessionLimitReachedException;
+import com.across.authentication.core.util.*;
+import com.across.authentication.customer.repository.CustomerRepository;
+import com.across.authentication.customer.repository.impl.HashMapCustomerRepository;
+import com.across.authentication.user.repository.UserRepository;
+import com.across.authentication.user.repository.impl.HashMapUserRepository;
 
 public class MainController {
     private final CustomerRepository CUSTOMER_DATA = new HashMapCustomerRepository();

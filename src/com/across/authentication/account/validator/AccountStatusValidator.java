@@ -1,7 +1,7 @@
-package com.across.internetbanking.account.validator;
+package com.across.authentication.account.validator;
 
-import com.across.internetbanking.account.model.Account;
-import com.across.internetbanking.account.model.AccountStatus;
+import com.across.authentication.account.model.Account;
+import com.across.authentication.account.model.AccountStatus;
 
 public class AccountStatusValidator {
     private final Account account;

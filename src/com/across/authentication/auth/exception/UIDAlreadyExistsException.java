@@ -1,4 +1,4 @@
-package com.across.internetbanking.auth.exception;
+package com.across.authentication.auth.exception;
 
 public class UIDAlreadyExistsException extends RuntimeException {
 

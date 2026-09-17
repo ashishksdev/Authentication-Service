@@ -1,4 +1,4 @@
-package com.across.internetbanking.customer.model;
+package com.across.authentication.customer.model;
 
 public class Customer{
     private final String uniqueID;

@@ -1,4 +1,4 @@
-package com.across.internetbanking.core.util;
+package com.across.authentication.core.util;
 
 public class AppConstants {
     

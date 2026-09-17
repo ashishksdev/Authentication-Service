@@ -1,3 +1,3 @@
-package com.across.internetbanking.auth.dto;
+package com.across.authentication.auth.dto;
 
 public record LoginDTO(String userIDInput, String passwordInput) {}

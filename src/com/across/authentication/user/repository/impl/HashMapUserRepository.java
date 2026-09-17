@@ -1,7 +1,7 @@
-package com.across.internetbanking.user.repository.impl;
+package com.across.authentication.user.repository.impl;
 
-import com.across.internetbanking.user.model.User;
-import com.across.internetbanking.user.repository.UserRepository;
+import com.across.authentication.user.model.User;
+import com.across.authentication.user.repository.UserRepository;
 import java.util.HashMap;
 
 public class HashMapUserRepository implements UserRepository {

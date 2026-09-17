@@ -1,6 +1,6 @@
-package com.across.internetbanking.user.model;
+package com.across.authentication.user.model;
 
-import com.across.internetbanking.auth.service.security.PasswordHash;
+import com.across.authentication.auth.service.security.PasswordHash;
 
 public class User {
     private String accountNumber;

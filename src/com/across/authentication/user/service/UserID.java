@@ -1,8 +1,8 @@
-package com.across.internetbanking.user.service;
+package com.across.authentication.user.service;
 
-import com.across.internetbanking.core.util.AppConstants;
-import com.across.internetbanking.core.util.UniqueID;
-import com.across.internetbanking.user.repository.UserRepository;
+import com.across.authentication.core.util.AppConstants;
+import com.across.authentication.core.util.UniqueID;
+import com.across.authentication.user.repository.UserRepository;
 
 public class UserID {
     private final UserRepository userRepository;

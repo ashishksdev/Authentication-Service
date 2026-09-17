@@ -1,11 +1,11 @@
-package com.across.internetbanking.auth.service;
+package com.across.authentication.auth.service;
 
-import com.across.internetbanking.account.model.Account;
-import com.across.internetbanking.account.repository.AccountRepository;
-import com.across.internetbanking.customer.model.Customer;
-import com.across.internetbanking.customer.repository.CustomerRepository;
-import com.across.internetbanking.user.model.User;
-import com.across.internetbanking.user.repository.UserRepository;
+import com.across.authentication.account.model.Account;
+import com.across.authentication.account.repository.AccountRepository;
+import com.across.authentication.customer.model.Customer;
+import com.across.authentication.customer.repository.CustomerRepository;
+import com.across.authentication.user.model.User;
+import com.across.authentication.user.repository.UserRepository;
 
 public class SignupService {
 

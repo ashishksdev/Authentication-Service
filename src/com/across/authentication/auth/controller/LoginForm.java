@@ -1,7 +1,7 @@
-package com.across.internetbanking.auth.controller;
+package com.across.authentication.auth.controller;
 
-import com.across.internetbanking.auth.dto.LoginDTO;
-import com.across.internetbanking.core.util.Input;
+import com.across.authentication.auth.dto.LoginDTO;
+import com.across.authentication.core.util.Input;
 
 public class LoginForm {
     public LoginDTO loginCredentials(){

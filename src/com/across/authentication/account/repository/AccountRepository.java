@@ -1,6 +1,6 @@
-package com.across.internetbanking.account.repository;
+package com.across.authentication.account.repository;
 
-import com.across.internetbanking.account.model.Account;
+import com.across.authentication.account.model.Account;
 
 public interface AccountRepository {
     public void update(Account account);

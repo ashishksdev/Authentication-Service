@@ -1,6 +1,6 @@
-package com.across.internetbanking.auth.controller;
+package com.across.authentication.auth.controller;
 
-import com.across.internetbanking.core.util.Input;
+import com.across.authentication.core.util.Input;
 
 public class PasswordForm {
 

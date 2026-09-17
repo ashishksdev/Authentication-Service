@@ -1,8 +1,8 @@
-package com.across.internetbanking.account.service;
+package com.across.authentication.account.service;
 
-import com.across.internetbanking.account.repository.AccountRepository;
-import com.across.internetbanking.core.util.AppConstants;
-import com.across.internetbanking.core.util.UniqueID;
+import com.across.authentication.account.repository.AccountRepository;
+import com.across.authentication.core.util.AppConstants;
+import com.across.authentication.core.util.UniqueID;
 
 
 public class AccountNumber {

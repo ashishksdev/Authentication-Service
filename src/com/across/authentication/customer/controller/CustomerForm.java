@@ -1,8 +1,8 @@
-package com.across.internetbanking.customer.controller;
+package com.across.authentication.customer.controller;
 
-import com.across.internetbanking.core.util.Input;
-import com.across.internetbanking.customer.dto.CustomerPersonalInfoDTO;
-import com.across.internetbanking.customer.model.Gender;
+import com.across.authentication.core.util.Input;
+import com.across.authentication.customer.dto.CustomerPersonalInfoDTO;
+import com.across.authentication.customer.model.Gender;
 
 public class CustomerForm {
 

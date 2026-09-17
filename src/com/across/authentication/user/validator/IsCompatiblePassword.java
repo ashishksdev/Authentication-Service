@@ -1,4 +1,4 @@
-package com.across.internetbanking.user.validator;
+package com.across.authentication.user.validator;
 
 public class IsCompatiblePassword {
     public boolean validate(String tempPassword) {

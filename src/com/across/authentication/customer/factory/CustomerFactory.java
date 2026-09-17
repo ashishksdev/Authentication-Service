@@ -1,7 +1,7 @@
-package com.across.internetbanking.customer.factory;
+package com.across.authentication.customer.factory;
 
-import com.across.internetbanking.customer.dto.CustomerPersonalInfoDTO;
-import com.across.internetbanking.customer.model.Customer;
+import com.across.authentication.customer.dto.CustomerPersonalInfoDTO;
+import com.across.authentication.customer.model.Customer;
 
 public class CustomerFactory {
     public Customer create(CustomerPersonalInfoDTO personalInfo){

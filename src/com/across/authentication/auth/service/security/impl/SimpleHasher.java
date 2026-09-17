@@ -1,6 +1,6 @@
-package com.across.internetbanking.auth.service.security.impl;
+package com.across.authentication.auth.service.security.impl;
 
-import com.across.internetbanking.auth.service.security.PasswordHash;
+import com.across.authentication.auth.service.security.PasswordHash;
 import java.nio.charset.StandardCharsets;
 import java.security.SecureRandom;
 import java.util.Base64;

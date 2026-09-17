@@ -1,15 +1,15 @@
-package com.across.internetbanking.dashboard.controller;
+package com.across.authentication.dashboard.controller;
 
-import com.across.internetbanking.account.model.Account;
-import com.across.internetbanking.account.repository.AccountRepository;
-import com.across.internetbanking.account.validator.AccountStatusValidator;
-import com.across.internetbanking.core.util.AppConstants;
-import com.across.internetbanking.core.util.Input;
-import com.across.internetbanking.customer.model.Customer;
-import com.across.internetbanking.customer.repository.CustomerRepository;
-import com.across.internetbanking.dashboard.exception.AccountNotActiveException;
-import com.across.internetbanking.dashboard.model.LoginAction;
-import com.across.internetbanking.user.model.User;
+import com.across.authentication.account.model.Account;
+import com.across.authentication.account.repository.AccountRepository;
+import com.across.authentication.account.validator.AccountStatusValidator;
+import com.across.authentication.core.util.AppConstants;
+import com.across.authentication.core.util.Input;
+import com.across.authentication.customer.model.Customer;
+import com.across.authentication.customer.repository.CustomerRepository;
+import com.across.authentication.dashboard.exception.AccountNotActiveException;
+import com.across.authentication.dashboard.model.LoginAction;
+import com.across.authentication.user.model.User;
 
 public class Dashboard {
 

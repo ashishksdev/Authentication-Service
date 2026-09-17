@@ -1,4 +1,4 @@
-package com.across.internetbanking.dashboard.exception;
+package com.across.authentication.dashboard.exception;
 
 public class AccountNotActiveException extends RuntimeException {
     

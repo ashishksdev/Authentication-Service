@@ -1,7 +1,7 @@
-package com.across.internetbanking.app;
+package com.across.authentication.app;
 
-import com.across.internetbanking.core.MainController;
-import com.across.internetbanking.core.util.AppConstants;
+import com.across.authentication.core.MainController;
+import com.across.authentication.core.util.AppConstants;
 
 public class Application {
 

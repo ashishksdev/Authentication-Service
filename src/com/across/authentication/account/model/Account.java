@@ -1,4 +1,4 @@
-package com.across.internetbanking.account.model;
+package com.across.authentication.account.model;
 
 import java.math.BigDecimal;
 

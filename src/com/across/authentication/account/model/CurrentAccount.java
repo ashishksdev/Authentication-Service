@@ -1,4 +1,4 @@
-package com.across.internetbanking.account.model;
+package com.across.authentication.account.model;
 
 public class CurrentAccount extends Account{
     double overDraft;

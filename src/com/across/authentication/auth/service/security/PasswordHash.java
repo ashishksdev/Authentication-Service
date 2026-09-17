@@ -1,4 +1,4 @@
-package com.across.internetbanking.auth.service.security;
+package com.across.authentication.auth.service.security;
 
 public interface PasswordHash {
     public String generateSalt();

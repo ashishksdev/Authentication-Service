@@ -1,7 +1,7 @@
-package com.across.internetbanking.user.factory;
+package com.across.authentication.user.factory;
 
-import com.across.internetbanking.auth.service.security.PasswordHash;
-import com.across.internetbanking.user.model.User;
+import com.across.authentication.auth.service.security.PasswordHash;
+import com.across.authentication.user.model.User;
 
 public class UserFactory {
 
